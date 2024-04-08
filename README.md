@@ -14,7 +14,25 @@ You can use a file "./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb" for the experiment.
 OPTIONS:
     --dataset DATASET: type of dataset (mnist/cifar10/celeba/lsun)
     --dataroot DATAROOT: path to dataset
-    --glrやdlr, g_iterationなどを追加しても良いかも。
+    --workers WORKERS: number of threads to load data
+    --batch_size BATCH_SIZE: batch size for training
+    --image_size IMAGE_SIZE: image size of dataset
+    --nc NC: number of channels in images
+    --nz NZ: hidden dimension in z and codespace
+    --max_iter MAX_ITER: max iteration for training
+    --lr LR: learning rate (default 5e-5)
+    --gpu_device GPU_DEVICE: gpu id (default 0)
+    --netG NETG: path to generator model
+    --netD NETD: path to discriminator model
+    --Diters DITERS: number of updates for discriminator per one generator update
+    --experiment EXPERIMENT: output directory of sampled images
+    --optimizer: types of optimizers
+    --model: LM or Original
+    --LM_f: functoin for LM
+    --data_file: whare to store the experiments data
+    --dlr: learning rate for discriminator, default:0.0001
+    --glr: learning rate for generator, default:0.0002
+    --g_max_iteration, iteration times for generator, default=25000
 
 ```
 
@@ -22,7 +40,7 @@ To conduct the experiment, run
 ```
 
     chmod +x run_exp_LM.sh
-    ./run_exp.sh [mnist/cifar10/celeba/lsun][XXXXX]
+    ./run_exp.sh [datasets] [Optimizer] [Model: Original or LM]
 
 ```
 
