@@ -84,10 +84,8 @@ Please refer to [the Github page](https://github.com/w86763777/pytorch-gan-metri
 
 Also, you can use the file "Calculation_FID_IS.ipynb" to calculate the scores.
 
-```
-The files of training data for each dataset required for the calculation of the evaluation scores are in the folder below:
-    - ./MMD-GAN-PyTorch/data/data_FID_IS
-```
+Download the data required for the calculation of FID and IS from [here](https://drive.google.com/drive/folders/1UBdzl6GtNMwNQ5U-4ESlIer43tNjiGJC).
+
 
 ## Optimizers with Landscape Modification
 
