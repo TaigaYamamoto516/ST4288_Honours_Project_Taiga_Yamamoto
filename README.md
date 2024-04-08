@@ -53,7 +53,11 @@ python main.py --model DCGAN \
 You can use a package "pytorch-gan-metrics" for the calculation of FID and Inception Score.
 Please refer to [the Github page](https://github.com/w86763777/pytorch-gan-metrics).
 
+
 Also, you can a file "XXX" to calculate the scores.
+    - Python, NumPy, Scipy
+    - PyTorch (v0.1.12)
+    - A recent Nvidia GPU    
     - "XXXX" for CIFAR-10
     - "XXXX" for LSUN Bedroom
     - "XXXX" for CelebA
