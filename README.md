@@ -12,5 +12,4 @@ Please refer to [the Github page](https://github.com/w86763777/pytorch-gan-metri
 ## Optimizers with Landscape Modification
 
 The optimizers with Landscape Modification are based on the paper "Landscape Modification in Machine Learning Optimization" by Ioana Todea.
-
-Please refer to [theGithub page](https://github.com/IoanaTodea22/LandscapeModification.git)
+Please refer to [the Github page](https://github.com/IoanaTodea22/LandscapeModification.git)
