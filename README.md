@@ -54,7 +54,9 @@ You can use a package "pytorch-gan-metrics" for the calculation of FID and Incep
 Please refer to [the Github page](https://github.com/w86763777/pytorch-gan-metrics).
 
 
-Also, you can a file "XXX" to calculate the scores    
+Also, you can a file "XXX" to calculate the scores
+
+The files required for the calculation of the evaluation scores are below:
     - "XXXX" for CIFAR-10
     - "XXXX" for LSUN Bedroom
     - "XXXX" for CelebA
