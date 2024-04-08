@@ -20,7 +20,6 @@ OPTIONS:
     --nc NC: number of channels in images
     --nz NZ: hidden dimension in z and codespace
     --max_iter MAX_ITER: max iteration for training
-    --lr LR: learning rate (default 5e-5)
     --gpu_device GPU_DEVICE: gpu id (default 0)
     --netG NETG: path to generator model
     --netD NETD: path to discriminator model
