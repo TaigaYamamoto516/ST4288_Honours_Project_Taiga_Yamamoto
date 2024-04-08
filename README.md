@@ -86,7 +86,7 @@ Also, you can use the file "Calculation_FID_IS.ipynb" to calculate the scores.
 
 ```
 The files of training data for each dataset required for the calculation of the evaluation scores are in the folder below:
-    - ./Generarted_png/
+    - ./MMD-GAN-PyTorch/data/data_FID_IS
 ```
 
 ## Optimizers with Landscape Modification
