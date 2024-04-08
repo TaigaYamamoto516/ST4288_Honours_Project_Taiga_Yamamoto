@@ -1,38 +1,41 @@
 # ST4288_Taiga_Yamamoto
 
-This repository contains code used for "XXXX" for the ST4288 project.
+This repository contains code used for "XXXX".
 
 ## MMD GAN
 
 The code of MMD GAN is based on [MMD-GAN: Towards Deeper Understanding of Moment Matching Network](https://github.com/OctoberChang/MMD-GAN).
+
+You can use a file "./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb" for the experiment.
 
 ```
 ./mmd_gan [OPTIONS]
 OPTIONS:
     --dataset DATASET: type of dataset (mnist/cifar10/celeba/lsun)
     --dataroot DATAROOT: path to dataset
-    --workers WORKERS: number of threads to load data
-    --batch_size BATCH_SIZE: batch size for training
-    --image_size IMAGE_SIZE: image size of dataset
-    --nc NC: number of channels in images
-    --nz NZ: hidden dimension in z and codespace
-    --max_iter MAX_ITER: max iteration for training
-    --lr LR: learning rate (default 5e-5)
-    --gpu_device GPU_DEVICE: gpu id (default 0)
-    --netG NETG: path to generator model
-    --netD NETD: path to discriminator model
-    --Diters DITERS: number of updates for discriminator per one generator update
-    --experiment EXPERIMENT: output directory of sampled images
+    --glrやdlr, g_iterationなどを追加しても良いかも。
+
 ```
 
+To conduct the experiment, run
+```
+$chmod +x run_exp_LM.sh
+$./run_exp.sh [mnist/cifar10/celeba/lsun][XXXXX]
 
+```
+
+Diiferent kinds of codes
 
 ## WGAN
 
 The code of WGAN is based on [the Github page](https://github.com/Zeleni9/pytorch-wgan).
 
+You can use a file "./pytorch-wgan/wgan-pytorch.ipynb" to condut the experiments.
+
+To run WGAN-GP
+
 ```
-python main.py --model DCGAN \
+python main.py --model WGAN-GP \
                --is_train True \
                --download True \
                --dataroot datasets/fashion-mnist \
@@ -46,6 +49,7 @@ python main.py --model DCGAN \
 
 ## Datasets
 
+Put datasets in "./MMD-GAN-PyTorch/data"
 
 
 ## Calculation of FID and Inception Score
@@ -54,14 +58,14 @@ You can use a package "pytorch-gan-metrics" for the calculation of FID and Incep
 Please refer to [the Github page](https://github.com/w86763777/pytorch-gan-metrics).
 
 
-Also, you can a file "XXX" to calculate the scores
+Also, you can a file "Calculation_FID_IS.ipynb" to calculate the scores
 
+```
 The files required for the calculation of the evaluation scores are below:
-    - "XXXX" for CIFAR-10
-    - "XXXX" for LSUN Bedroom
-    - "XXXX" for CelebA
+    - ./MMD-GAN-PyTorch/Generarted_png/
+```
 
 ## Optimizers with Landscape Modification
 
-The optimizers with Landscape Modification are based on the paper "Landscape Modification in Machine Learning Optimization" by Ioana Todea.
+The optimizers with Landscape Modification are based on the paper "Landscape Modification in Machine Learning Optimization".
 Please refer to [the Github page](https://github.com/IoanaTodea22/LandscapeModification.git)
