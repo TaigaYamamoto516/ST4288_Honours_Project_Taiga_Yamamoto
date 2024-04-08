@@ -9,6 +9,7 @@ The code of MMD GAN is based on [MMD-GAN: Towards Deeper Understanding of Moment
 You can use a file "./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb" for the experiment.
 
 ```
+
 ./mmd_gan [OPTIONS]
 OPTIONS:
     --dataset DATASET: type of dataset (mnist/cifar10/celeba/lsun)
@@ -19,6 +20,7 @@ OPTIONS:
 
 To conduct the experiment, run
 ```
+
     chmod +x run_exp_LM.sh
     ./run_exp.sh [mnist/cifar10/celeba/lsun][XXXXX]
 
