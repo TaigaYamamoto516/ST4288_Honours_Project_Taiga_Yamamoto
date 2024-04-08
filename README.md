@@ -1,4 +1,4 @@
-# ST4288_Taiga_Yamamoto
+# ST4288_Honours_Thesis_Taiga_Yamamoto
 
 This repository contains code used for "XXXX".
 
@@ -6,7 +6,7 @@ This repository contains code used for "XXXX".
 
 The code of MMD GAN is based on [MMD-GAN: Towards Deeper Understanding of Moment Matching Network](https://github.com/OctoberChang/MMD-GAN).
 
-You can use a file "./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb" for the experiment.
+You can use the file "./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb" for the experiment.
 
 ```
 
@@ -28,11 +28,13 @@ OPTIONS:
     --experiment EXPERIMENT: output directory of sampled images
     --optimizer: types of optimizers
     --model: LM or Original
-    --LM_f: functoin for LM
-    --data_file: whare to store the experiments data
-    --dlr: learning rate for discriminator, default:0.0001
-    --glr: learning rate for generator, default:0.0002
-    --g_max_iteration, iteration times for generator, default=25000
+    --LM_f: function for LM
+    --data_file: where to store the experiment data
+    --dlr: learning rate for discriminator (default 0.0001)
+    --glr: learning rate for generator (default 0.0002)
+    --g_max_iteration, iteration times for generator (default 25000)
+
+For LM_f, dlr, glr, and g_max_iteration, please change the variables in the "util.py" file directly.
 
 ```
 
@@ -44,17 +46,18 @@ To conduct the experiment, run
 
 ```
 
-Diiferent kinds of codes
+For more details about running each model in the paper, please refer to the file "./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb'
 
-## WGAN
+## WGAN-GP
 
 The code of WGAN is based on [the Github page](https://github.com/Zeleni9/pytorch-wgan).
 
-You can use a file "./pytorch-wgan/wgan-pytorch.ipynb" to conduct the experiments.
+You can use the file "./pytorch-wgan/wgan-pytorch.ipynb" to conduct the experiments.
 
 To run WGAN-GP
 
 ```
+
 python main.py --model WGAN-GP \
                --is_train True \
                --download True \
@@ -65,9 +68,10 @@ python main.py --model WGAN-GP \
                --batch_size 64 \
                --optimizer [RMSprop/Adam/NAdam] \
                --lm [Original/IKSA]
+
 ```
 
-Although there are various algorithms: DCGAN, GAN, WGAN, WGAN-GP, WGAN-CP, only WGAN-GP works for Landscape Modification.
+Although the folder contains various algorithms: DCGAN, GAN, WGAN, WGAN-GP, and WGAN-CP, only WGAN-GP works for Landscape Modification.
 
 ## Datasets
 
@@ -75,13 +79,13 @@ Put datasets in "./MMD-GAN-PyTorch/data".
 
 ## Calculation of FID and Inception Score
 
-You can use a package "pytorch-gan-metrics" for the calculation of FID and Inception Score.
+You can use the package "pytorch-gan-metrics" to calculate the FID and Inception Score.
 Please refer to [the Github page](https://github.com/w86763777/pytorch-gan-metrics).
 
 Also, you can a file "Calculation_FID_IS.ipynb" to calculate the scores.
 
 ```
-The files of training data for each datasets required for the calculation of the evaluation scores are in the folder below:
+The files of training data for each dataset required for the calculation of the evaluation scores are in the folder below:
     - ./Generarted_png/
 ```
 
