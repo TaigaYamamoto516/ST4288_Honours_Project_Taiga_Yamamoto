@@ -29,9 +29,9 @@ OPTIONS:
 
 ## WGAN
 
-The code of WGAN is based on [XX}(https://github.com/Zeleni9/pytorch-wgan).
+The code of WGAN is based on [the Github page](https://github.com/Zeleni9/pytorch-wgan).
 
-'''
+```
 python main.py --model DCGAN \
                --is_train True \
                --download True \
@@ -40,7 +40,7 @@ python main.py --model DCGAN \
                --epochs 30 \
                --cuda True \
                --batch_size 64
-'''
+```
 
 
 
