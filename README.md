@@ -1,4 +1,4 @@
-# ST4288_Honours_Thesis_Taiga_Yamamoto
+# ST4288_Honours_Project_Taiga_Yamamoto
 
 This repository contains code used for "XXXX".
 
