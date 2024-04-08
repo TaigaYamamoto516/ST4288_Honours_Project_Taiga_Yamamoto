@@ -53,6 +53,12 @@ python main.py --model DCGAN \
 You can use a package "pytorch-gan-metrics" for the calculation of FID and Inception Score.
 Please refer to [the Github page](https://github.com/w86763777/pytorch-gan-metrics).
 
+Also, you can a file "XXX" to calculate the scores.
+
+* "XXXX" for CIFAR-10
+* "XXXX" for LSUN Bedroom
+* "XXXX" for CelebA
+
 ## Optimizers with Landscape Modification
 
 The optimizers with Landscape Modification are based on the paper "Landscape Modification in Machine Learning Optimization" by Ioana Todea.
