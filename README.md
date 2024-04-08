@@ -79,9 +79,10 @@ Put datasets in "./MMD-GAN-PyTorch/data".
 ## Calculation of FID and Inception Score
 
 You can use the package "pytorch-gan-metrics" to calculate the FID and Inception Score.
+
 Please refer to [the Github page](https://github.com/w86763777/pytorch-gan-metrics).
 
-Also, you can a file "Calculation_FID_IS.ipynb" to calculate the scores.
+Also, you can use the file "Calculation_FID_IS.ipynb" to calculate the scores.
 
 ```
 The files of training data for each dataset required for the calculation of the evaluation scores are in the folder below:
