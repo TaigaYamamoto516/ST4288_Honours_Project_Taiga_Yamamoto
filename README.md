@@ -64,7 +64,7 @@ Also, you can a file "Calculation_FID_IS.ipynb" to calculate the scores.
 
 ```
 The files required for the calculation of the evaluation scores are in the folder below:
-    - ./MMD-GAN-PyTorch/Generarted_png/
+    - ./Generarted_png/
 ```
 
 ## Optimizers with Landscape Modification
