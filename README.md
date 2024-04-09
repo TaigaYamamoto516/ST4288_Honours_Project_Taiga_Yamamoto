@@ -45,7 +45,7 @@ To conduct the experiment, run
 
 ```
 
-For more details about running each model in the paper, please refer to the file "./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb'
+For more details about running each model in the paper, please refer to the file "./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb'.
 
 ## WGAN-GP
 
@@ -95,4 +95,4 @@ Please refer to [the Github page](https://github.com/IoanaTodea22/LandscapeModif
 
 ## More Info
 
-For any questions and comments, please send your email to taigayamamoto@u.nus.edu or taiga2002516@gmail.com
+For any questions and comments, please send your email to taigayamamoto@u.nus.edu or taiga2002516@gmail.com.
