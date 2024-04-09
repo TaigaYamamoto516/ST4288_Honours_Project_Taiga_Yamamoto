@@ -1,6 +1,6 @@
 # ST4288_Honours_Project_Taiga_Yamamoto
 
-This repository contains code used for "XXXX".
+This repository contains code used for ["XXXX"](https://github.com/TaigaYamamoto516/ST4288_Honours_Project_Taiga_Yamamoto/blob/main/annotated-Tan20Adam-3.pdf).
 
 ## MMD GAN
 
