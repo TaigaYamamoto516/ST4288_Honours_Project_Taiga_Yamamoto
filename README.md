@@ -1,7 +1,6 @@
 # ST4288_Honours_Project_Taiga_Yamamoto
 
-This repository contains code used for "Optimizing Generative Adversarial Networks: 
-       \\ The Impact of Landscape Modification on GAN Performance".
+This repository contains code used for "Optimizing Generative Adversarial Networks: The Impact of Landscape Modification on GAN Performance".
 
 ## MMD GAN
 
