@@ -6,7 +6,7 @@ This repository contains code used for [Optimizing Generative Adversarial Networ
 
 The code of MMD GAN is based on [MMD-GAN: Towards Deeper Understanding of Moment Matching Network](https://github.com/OctoberChang/MMD-GAN).
 
-You can use the file "./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb" for the experiment.
+You can use the file [./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb" for the experiment](https://github.com/TaigaYamamoto516/ST4288_Honours_Project_Taiga_Yamamoto/blob/main/MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb).
 
 ```
 
@@ -45,7 +45,7 @@ To conduct the experiment, run
 
 ```
 
-For more details about running each model in the paper, please refer to the file "./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb'.
+For more details about running each model in the paper, please refer to the file [./MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb](https://github.com/TaigaYamamoto516/ST4288_Honours_Project_Taiga_Yamamoto/blob/main/MMD-GAN-PyTorch/MMD-GAN-PyTorch.ipynb)'.
 
 ## WGAN-GP
 
