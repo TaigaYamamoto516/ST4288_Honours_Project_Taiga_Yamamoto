@@ -51,7 +51,7 @@ For more details about running each model in the paper, please refer to the file
 
 The code of WGAN is based on [the Github page](https://github.com/Zeleni9/pytorch-wgan).
 
-You can use the file "./pytorch-wgan/wgan-pytorch.ipynb" to conduct the experiments.
+You can use the file [./pytorch-wgan/wgan-pytorch.ipynb" to conduct the experiments](https://github.com/TaigaYamamoto516/ST4288_Honours_Project_Taiga_Yamamoto/blob/main/pytorch-wgan/wgan-pytorch.ipynb).
 
 To run WGAN-GP
 
