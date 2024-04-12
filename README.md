@@ -82,7 +82,7 @@ You can use the package "pytorch-gan-metrics" to calculate the FID and Inception
 
 Please refer to [the Github page](https://github.com/w86763777/pytorch-gan-metrics).
 
-Also, you can use the file "Calculation_FID_IS.ipynb" to calculate the scores.
+Also, you can use the file [Calculation_FID_IS.ipynb" to calculate the scores](https://github.com/TaigaYamamoto516/ST4288_Honours_Project_Taiga_Yamamoto/blob/main/Calculation_FID_IS.ipynb).
 
 Download the data required for the calculation of FID and IS from [here](https://drive.google.com/drive/folders/1UBdzl6GtNMwNQ5U-4ESlIer43tNjiGJC).
 
