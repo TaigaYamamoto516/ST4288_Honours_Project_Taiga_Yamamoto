@@ -74,7 +74,7 @@ Although the folder contains various algorithms: DCGAN, GAN, WGAN, WGAN-GP, and 
 
 ## Datasets
 
-Put datasets in "./MMD-GAN-PyTorch/data".
+Put datasets in [./MMD-GAN-PyTorch/data](https://github.com/TaigaYamamoto516/ST4288_Honours_Project_Taiga_Yamamoto/tree/main/MMD-GAN-PyTorch/data).
 
 ## Calculation of FID and Inception Score
 
